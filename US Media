@@ -1,0 +1,173 @@
+# 内容：US Media
+# 更新：2022-05-21 21:51:25
+# 数量：327条
+
+# ABC
+DOMAIN-SUFFIX,edgedatg.com
+DOMAIN-SUFFIX,go.com
+
+# Amazon
+DOMAIN-KEYWORD,avoddashs
+DOMAIN,atv-ps.amazon.com
+DOMAIN,avodmp4s3ww-a.akamaihd.net
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+DOMAIN,d1xfray82862hr.cloudfront.net
+DOMAIN,d22qjgkvxw22r6.cloudfront.net
+DOMAIN,d25xi40x97liuc.cloudfront.net
+DOMAIN,d27xxe7juh1us6.cloudfront.net
+DOMAIN,d3196yreox78o9.cloudfront.net
+DOMAIN,dmqdd6hw24ucf.cloudfront.net
+DOMAIN,ktpx.amazon.com
+DOMAIN-SUFFIX,aboutamazon.com
+DOMAIN-SUFFIX,aiv-cdn.net
+DOMAIN-SUFFIX,aiv-delivery.net
+DOMAIN-SUFFIX,amazon.jobs
+DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,pv-cdn.net
+URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
+
+
+
+# BBCiPlayer
+USER-AGENT,BBCiPlayer*
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,uk-live
+DOMAIN,aod-dash-uk-live.akamaized.net
+DOMAIN,aod-hls-uk-live.akamaized.net
+DOMAIN,vod-dash-uk-live.akamaized.net
+DOMAIN,vod-thumb-uk-live.akamaized.net
+DOMAIN-SUFFIX,bbc.co
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,bbc.net.uk
+DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net
+DOMAIN-SUFFIX,bbci.co
+DOMAIN-SUFFIX,bbci.co.uk
+DOMAIN-SUFFIX,bidi.net.uk
+
+
+# DiscoveryPlus
+DOMAIN-SUFFIX,disco-api.com
+DOMAIN-SUFFIX,discovery.com
+DOMAIN-SUFFIX,uplynk.com
+
+
+
+# EncoreTVB
+USER-AGENT,encoreTVB*
+DOMAIN,bcbolt446c5271-a.akamaihd.net
+DOMAIN,content.jwplatform.com
+DOMAIN,edge.api.brightcove.com
+DOMAIN,videos-f.jwpsrv.com
+DOMAIN-SUFFIX,encoretvb.com
+
+# FoxNow
+USER-AGENT,FOX%20NOW*
+DOMAIN-SUFFIX,fox.com
+DOMAIN-SUFFIX,foxdcg.com
+DOMAIN-SUFFIX,uplynk.com
+
+# HBO
+USER-AGENT,HBO%20NOW*
+USER-AGENT,HBOMAX*
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,hbomaxcdn.com
+DOMAIN-SUFFIX,hbonow.com
+
+
+# Hulu
+DOMAIN-SUFFIX,cws-hulu.conviva.com
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,hulu.hb.omtrdc.net
+DOMAIN-SUFFIX,hulu.sc.omtrdc.net
+DOMAIN-SUFFIX,huluad.com
+DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,hulustream.com
+
+
+# ITV
+USER-AGENT,ITV_Player*
+DOMAIN,itvpnpmobile-a.akamaihd.net
+DOMAIN-SUFFIX,itv.com
+DOMAIN-SUFFIX,itvstatic.com
+
+
+# Japonx
+DOMAIN-KEYWORD,japonx
+DOMAIN-KEYWORD,japronx
+DOMAIN-SUFFIX,japonx.com
+DOMAIN-SUFFIX,japonx.net
+DOMAIN-SUFFIX,japonx.tv
+DOMAIN-SUFFIX,japonx.vip
+DOMAIN-SUFFIX,japronx.com
+DOMAIN-SUFFIX,japronx.net
+DOMAIN-SUFFIX,japronx.tv
+DOMAIN-SUFFIX,japronx.vip
+
+# KKBOX
+DOMAIN-SUFFIX,kfs.io
+DOMAIN-SUFFIX,kkbox.com
+DOMAIN-SUFFIX,kkbox.com.tw
+
+# KKTV
+USER-AGENT,KKTV*
+USER-AGENT,com.kktv.ios.kktv*
+DOMAIN,kktv-theater.kk.stream
+DOMAIN,theater-kktv.cdn.hinet.net
+DOMAIN-SUFFIX,kktv.com.tw
+DOMAIN-SUFFIX,kktv.me
+
+
+
+# LineTV
+USER-AGENT,LINE%20TV*
+USER-AGENT,LINE*
+DOMAIN,d3c7rimkq79yfu.cloudfront.net
+DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
+DOMAIN-SUFFIX,linetv.tw
+DOMAIN-SUFFIX,profile.line-scdn.net
+
+
+
+# PBS
+USER-AGENT,PBS*
+DOMAIN-SUFFIX,pbs.org
+
+# Pandora
+USER-AGENT,Pandora*
+DOMAIN-SUFFIX,pandora.com
+
+# Pornhub
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,phprcdn.com
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,pornhubpremium.com
+
+# Qobuz
+DOMAIN-SUFFIX,qobuz.com
+
+# SoundCloud
+USER-AGENT,SoundCloud*
+DOMAIN-SUFFIX,p-cdn.us
+DOMAIN-SUFFIX,sndcdn.com
+DOMAIN-SUFFIX,soundcloud.com
+
+# Spotify
+USER-AGENT,Spotify*
+DOMAIN-KEYWORD,-spotify-com
+DOMAIN-KEYWORD,spotify.com
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spoti.fi
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spotifycdn.com
+DOMAIN-SUFFIX,spotifycdn.net
+
+# TIDAL
+USER-AGENT,TIDAL*
+DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
+DOMAIN-SUFFIX,tidal.com
+DOMAIN-SUFFIX,tidalhifi.com
+
