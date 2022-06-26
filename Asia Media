@@ -1,0 +1,118 @@
+# 内容：Aisa Media
+# 更新：2022-05-21 21:51:25
+# 数量：327条
+
+# AbemaTV
+USER-AGENT,AbemaTV*
+DOMAIN-KEYWORD,abematv.akamaized.net
+DOMAIN-SUFFIX,abema.io
+DOMAIN-SUFFIX,abema.tv
+DOMAIN-SUFFIX,ameba.jp
+DOMAIN-SUFFIX,hayabusa.io
+
+# AppleNews
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
+DOMAIN,gspe1-ssl.ls.apple.com
+
+# AppleTV
+DOMAIN,np-edge.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
+DOMAIN-SUFFIX,tv.apple.com
+
+# Bahamut
+USER-AGENT,Anime*
+DOMAIN,bahamut.akamaized.net
+DOMAIN,gamer-cds.cdn.hinet.net
+DOMAIN,gamer2-cds.cdn.hinet.net
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,gamer.com.tw
+
+# DisneyPlus
+USER-AGENT,Disney*
+USER-AGENT,Disney+*
+DOMAIN,cdn.registerdisney.go.com
+DOMAIN-SUFFIX,adobedtm.com
+DOMAIN-SUFFIX,bam.nr-data.net
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,braze.com
+DOMAIN-SUFFIX,cdn.optimizely.com
+DOMAIN-SUFFIX,cdn.registerdisney.go.com
+DOMAIN-SUFFIX,cws.conviva.com
+DOMAIN-SUFFIX,d9.flashtalking.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disney-portal.my.onetrust.com
+DOMAIN-SUFFIX,disney.demdex.net
+DOMAIN-SUFFIX,disney.my.sentry.io
+DOMAIN-SUFFIX,disneyplus.bn5x.net
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
+DOMAIN-SUFFIX,disneystreaming.com
+DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,js-agent.newrelic.com
+
+# JOOX
+USER-AGENT,JOOX*
+USER-AGENT,WeMusic*
+DOMAIN-KEYWORD,jooxweb-api
+DOMAIN-SUFFIX,joox.com
+
+# KKBOX
+DOMAIN-SUFFIX,kfs.io
+DOMAIN-SUFFIX,kkbox.com
+DOMAIN-SUFFIX,kkbox.com.tw
+
+# LiTV
+DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
+DOMAIN-SUFFIX,litv.tv
+
+
+# MyTVSuper
+USER-AGENT,mytv*
+DOMAIN-KEYWORD,nowtv100
+DOMAIN-KEYWORD,rthklive
+DOMAIN,mytvsuperlimited.hb.omtrdc.net
+DOMAIN,mytvsuperlimited.sc.omtrdc.net
+DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-SUFFIX,tvb.com
+
+
+# TaiWanGood 台湾好
+USER-AGENT,TaiwanGood*
+DOMAIN,hamifans.emome.net
+DOMAIN-SUFFIX,skyking.com.tw
+
+
+# Twitch
+DOMAIN-KEYWORD,ttvnw
+DOMAIN-SUFFIX,ext-twitch.tv
+DOMAIN-SUFFIX,jtvnw.net
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,twitch-ext.rootonline.de
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,twitchcdn.net
+
+
+# ViuTV
+USER-AGENT,Viu*
+USER-AGENT,ViuTV*
+DOMAIN,api.viu.now.com
+DOMAIN,d1k2us671qcoau.cloudfront.net
+DOMAIN,d2anahhhmp1ffz.cloudfront.net
+DOMAIN,dfp6rglgjqszk.cloudfront.net
+DOMAIN-SUFFIX,bootstrapcdn.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,jwpcdn.com
+DOMAIN-SUFFIX,jwplayer.com
+DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,nowe.com
+DOMAIN-SUFFIX,viu.com
+DOMAIN-SUFFIX,viu.now.com
+DOMAIN-SUFFIX,viu.tv
+
+
+
+
