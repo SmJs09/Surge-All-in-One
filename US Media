@@ -120,17 +120,6 @@ DOMAIN-SUFFIX,kktv.com.tw
 DOMAIN-SUFFIX,kktv.me
 
 
-
-# LineTV
-USER-AGENT,LINE%20TV*
-USER-AGENT,LINE*
-DOMAIN,d3c7rimkq79yfu.cloudfront.net
-DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
-DOMAIN-SUFFIX,linetv.tw
-DOMAIN-SUFFIX,profile.line-scdn.net
-
-
-
 # PBS
 USER-AGENT,PBS*
 DOMAIN-SUFFIX,pbs.org
