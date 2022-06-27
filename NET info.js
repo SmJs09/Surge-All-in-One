@@ -247,7 +247,7 @@ function getNetworkInfo(retryTimes = 5, retryInterval = 1000) {
       title: "请求超时",
       content: "连接请求超时\n请检查网络状态后重试",
       icon: 'wifi.exclamationmark',
-      'icon-color': '#3CB371',
+      'icon-color': '#ffa500',
     });
   }, scriptTimeout > surgeMaxTimeout ? surgeMaxTimeout : scriptTimeout);
 
