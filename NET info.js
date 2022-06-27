@@ -199,7 +199,7 @@ function getNetworkInfo(retryTimes = 5, retryInterval = 1000) {
         `节点ISP：${info.isp}\n` +
         `节点位置：${getFlagEmoji(info.countryCode)} | ${info.country} - ${info.city}`,
       icon: getSSID() ? 'wifi' : 'simcard',
-      'icon-color': getSSID() ? '#5A9AF9' : '#8AB8DD',
+      'icon-color': getSSID() ? '#008000' : '#008000',
     });
   }).catch(error => {
     // 网络切换
@@ -223,7 +223,7 @@ function getNetworkInfo(retryTimes = 5, retryInterval = 1000) {
         title: '发生错误',
         content: '无法获取当前网络信息\n请检查网络状态后重试',
         icon: 'wifi.exclamationmark',
-        'icon-color': '#CB1B45',
+        'icon-color': '#008000',
       });
     }
   });
