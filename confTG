@@ -47,21 +47,28 @@ keyword-filter-type = false
 [Proxy]
 🌐 全球直连 = direct
 # >自行添加节点信息（以下只是个例子，并非可用节点）
-🇭🇰 Premium Hong Kong 01 = ss, 1.2.3.4, 2333, encrypt-method=aes-128-gcm, password=Love, udp-relay=true, tfo=true
+
 
 [Proxy Group]
 # > 策略组（下面的节点信息需与外部节点对应，若删除了外部节点里的节点，那么在策略组里也要删除。🚀 手动选择对应的是上面自行添加节点的信息，若使用外部节点的话请删除🚀 手动选择。）
 ✈️ 节点选择 = select, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点, 🚀 手动选择
-🚀 手动选择 = select, 🇭🇰 Premium Hong Kong 01, 🇭🇰 Premium Hong Kong 02, 🇭🇰 Premium Hong Kong 03, 🇭🇰 Hong Kong 01 | Media, 🇭🇰 Hong Kong 02 | Media, 🇭🇰 Hong Kong 03 | Media, 🇺🇸 Premium USA San Jose 01, 🇺🇸 Premium USA San Jose 02, 🇺🇸 Premium USA San Jose 03, 🇺🇸 United States 01 | Media, 🇺🇸 United States 02 | Media, 🇺🇸 United States 03 | Media, 🇸🇬 Premium Singapore 01, 🇸🇬 Premium Singapore 02, 🇸🇬 Premium Singapore 03, 🇸🇬 Singapore 01 | Media, 🇸🇬 Singapore 02 | Media, 🇸🇬 Singapore 03 | Media
+🚀 手动选择 = select, ✈️ 节点选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
 📲 电报信息 = select, ✈️ 节点选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
 🎥 奈飞视频 = select, 🚀 手动选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
-🎬 迪士尼+ = select, 🚀 手动选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
-📹 油管视频 = select, 🚀 手动选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
-📽 哔哩哔哩 = select, 🌐 全球直连, 🇭🇰 香港节点, 🇯🇵 日本节点
-🍿 国外媒体 = select, ✈️ 节点选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
+🎥 油管视频 = select, 🚀 手动选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
+🎥 HBO_GO_HKG = select, 🚀 手动选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
+
+📹 Asia Media = select, 🚀 手动选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
+📹 America Media = select, 🚀 手动选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
+📹 Europe Media = select, 🚀 手动选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
+📹 Japan Media = select, 🚀 手动选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
+
+
 🍔 国内媒体 = select, 🌐 全球直连, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
-🍟 新浪微博 = select, 🌐 全球直连, ✈️ 节点选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
 Ⓜ️ 微软服务 = select, 🌐 全球直连, ✈️ 节点选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
+
+Ⓜ️ 谷歌服务 = select, 🌐 全球直连, ✈️ 节点选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
+
 🍎 苹果服务 = select, 🌐 全球直连, ✈️ 节点选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
 🎮 游戏平台 = select, 🌐 全球直连, ✈️ 节点选择, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点
 # > 外部节点
@@ -80,11 +87,16 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingLite/AdvertisingLite_Domain.list,REJECT
 # > 微软服务
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list,Ⓜ️ 微软服务
+# > 谷歌服务
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list,Ⓜ️ 谷歌服务
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleDrive/GoogleDrive.list,Ⓜ️ 谷歌服务
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleFCM/GoogleFCM.list,Ⓜ️ 谷歌服务
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleSearch/GoogleSearch.list,Ⓜ️ 谷歌服务
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleVoice/GoogleVoice.list,Ⓜ️ 谷歌服务
 # > 苹果服务
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list,🍎 苹果服务
 # > 社交平台
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list,📲 电报信息
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Weibo/Weibo.list,🍟 新浪微博
 # > 游戏平台
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list,🎮 游戏平台
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Sony/Sony.list,🎮 游戏平台
@@ -93,10 +105,16 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 # > 流媒体
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list,📹 油管视频
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list,🎥 奈飞视频
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list,🎬 迪士尼+
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list,📽 哔哩哔哩
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list,🎥 奈飞视频
+RULE-SET,https://raw.githubusercontent.com/SmJs09/Surge-All-in-One/main/HBO_GO_HKG,🎥 HBO_GO_HKG
+
+RULE-SET,https://raw.githubusercontent.com/SmJs09/Surge-All-in-One/main/Asia%20Media,📹 Asia Media 
+RULE-SET,https://raw.githubusercontent.com/SmJs09/Surge-All-in-One/main/US%20Media,📹 America Media
+RULE-SET,https://raw.githubusercontent.com/SmJs09/Surge-All-in-One/main/Japan%20Media,📹 Japan Media
+RULE-SET,https://raw.githubusercontent.com/SmJs09/Surge-All-in-One/main/Europe%20Media,📹 Europe Media
+
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMedia/ChinaMedia.list,🍔 国内媒体
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,🍿 国外媒体
+
 # > Proxy
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Proxy/Proxy.list,✈️ 节点选择
 DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Proxy/Proxy_Domain.list,✈️ 节点选择
