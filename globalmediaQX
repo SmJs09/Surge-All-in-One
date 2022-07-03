@@ -1211,7 +1211,7 @@ HOST-KEYWORD,bbcfmt,GlobalMedia
 HOST-KEYWORD,discovery.uplynk.com,GlobalMedia
 HOST-KEYWORD,dualstack.apiproxy-,GlobalMedia
 HOST-KEYWORD,dualstack.ichnaea-web-,GlobalMedia
-HOST-KEYWORD,hbogoasia,GlobalMedia
+
 HOST-KEYWORD,japonx,GlobalMedia
 HOST-KEYWORD,japronx,GlobalMedia
 HOST-KEYWORD,jooxweb-api,GlobalMedia
@@ -1240,10 +1240,7 @@ USER-AGENT,Disney*,GlobalMedia
 USER-AGENT,Disney+*,GlobalMedia
 USER-AGENT,FOX%20NOW*,GlobalMedia
 USER-AGENT,FOXPlus*,GlobalMedia
-USER-AGENT,HBO%20GO%20PROD%20HKG*,GlobalMedia
-USER-AGENT,HBO%20GO%20PROD*,GlobalMedia
-USER-AGENT,HBO%20NOW*,GlobalMedia
-USER-AGENT,HBOMAX*,GlobalMedia
+
 USER-AGENT,HWTVMobile*,GlobalMedia
 USER-AGENT,Himalaya*,GlobalMedia
 USER-AGENT,ITV_Player*,GlobalMedia
