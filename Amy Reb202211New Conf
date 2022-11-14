@@ -1,0 +1,111 @@
+[General]
+# > 日志级别
+loglevel = notify
+show-error-page-for-reject = true
+# > 增强版 Wi-Fi 助理
+allow-wifi-access = false
+# > All Hybrid 网络并发
+all-hybrid = false
+# > IPv6 支持（默认关闭）
+ipv6 = false
+# > 测试超时（秒）
+test-timeout = 2
+# > Internet 测试 URL
+internet-test-url = http://www.baidu.com
+# > 代理测速 URL
+proxy-test-url = http://www.google.com/generate_204
+# > GeoIP数据库
+geoip-maxmind-url = https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb
+# > 排除简单主机名
+exclude-simple-hostnames = true
+# > DNS 服务器
+dns-server = 223.5.5.5, 119.29.29.29
+hijack-dns = 8.8.8.8:53, 8.8.4.4:53
+# > 从 /etc/hosts 读取 DNS 记录
+read-etc-hosts = true
+# > 远程控制器
+http-api-web-dashboard = false
+use-default-policy-if-wifi-not-primary = false
+# > 跳过代理
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8, localhost, *.local, *.crashlytics.com, seed-sequoia.siri.apple.com, sequoia.apple.com
+# > Always Real IP Hosts
+always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com*.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.battlenet.com.cn, *.battlenet.com, *.blzstatic.cn, *.battle.net
+
+[Replica]
+# > 隐藏 Apple 请求
+hide-apple-request = false
+# > 隐藏崩溃追踪器请求
+hide-crash-reporter-request = true
+# > 隐藏 UDP 会话
+hide-udp = false
+# > 关键词过滤器
+keyword-filter-type = false
+
+[Proxy]
+🌐 全球直连 = direct
+# >自行添加节点信息（以下只是个例子，并非可用节点）
+
+[Proxy Group]
+# > 策略组（下面的节点信息需与外部节点对应，若删除了外部节点里的节点，那么在策略组里也要删除。🚀 手动选择对应的是上面自行添加节点的信息，若使用外部节点的话请删除🚀 手动选择。）
+🚅Node = select, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 👋Passive, no-alert=0, hidden=0, include-all-proxies=0
+👋Passive = select, DIRECT, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇲 美国节点, REJECT, policy-path=https://api.immtel.co/Subscription/SurgeNodeList?sid=4860&token=5y2iU2EbjVO, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
+📟Spotify = select, DIRECT, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全球直连, REJECT, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
+🤿Youtube = select, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点, no-alert=0, hidden=0, include-all-proxies=0
+📬Telegram = select, 🚅Node, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点, no-alert=0, hidden=0, include-all-proxies=0
+📺Netflix&Disney+ = select, 👋Passive, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点, no-alert=0, hidden=0, include-all-proxies=0
+🍎 Apple服务 = select, 🌐 全球直连, 🚅Node, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点, no-alert=0, hidden=0, include-all-proxies=0
+🌀Google服务 = select, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇬🇧 英国节点, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇺🇲 美国节点, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
+Ⓜ️ Microsoft服务 = select, 🌐 全球直连, 🚅Node, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点, no-alert=0, hidden=0, include-all-proxies=0
+🌏Aisa Media = select, DIRECT, 🇭🇰 香港节点, 🇨🇳 台湾节点, REJECT, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
+🌎US Media = select, DIRECT, 🇺🇲 美国节点, REJECT, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
+🀄️国内媒体 = select, 🌐 全球直连, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点, no-alert=0, hidden=0, include-all-proxies=0
+# > 外部节点
+🕹游戏平台 = select, 🌐 全球直连, 🚅Node, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点, no-alert=0, hidden=0, include-all-proxies=0
+🇭🇰 香港节点 = url-test, policy-path=https://api.nxtlnodes.com/Subscription/SurgeNodeList?sid=27178&token=g6lF5QxciXU, update-interval=0, policy-regex-filter=🇭🇰, no-alert=0, hidden=0, include-all-proxies=0
+🇨🇳 台湾节点 = url-test, policy-path=https://api.nxtlnodes.com/Subscription/SurgeNodeList?sid=27178&token=g6lF5QxciXU, update-interval=0, policy-regex-filter=🇨🇳, no-alert=0, hidden=0, include-all-proxies=0
+🇺🇲 美国节点 = url-test, policy-path=https://api.nxtlnodes.com/Subscription/SurgeNodeList?sid=27178&token=g6lF5QxciXU, update-interval=0, policy-regex-filter=🇺🇸, no-alert=0, hidden=0, include-all-proxies=0
+🇯🇵 日本节点 = url-test, policy-path=https://api.nxtlnodes.com/Subscription/SurgeNodeList?sid=27178&token=g6lF5QxciXU, update-interval=0, policy-regex-filter=🇯🇵, no-alert=0, hidden=0, include-all-proxies=0
+🇸🇬 新加坡节点 = url-test, policy-path=https://api.nxtlnodes.com/Subscription/SurgeNodeList?sid=27178&token=g6lF5QxciXU, update-interval=0, policy-regex-filter=🇸🇬, no-alert=0, hidden=0, include-all-proxies=0
+🇬🇧 英国节点 = url-test, policy-path=https://api.nxtlnodes.com/Subscription/SurgeNodeList?sid=27178&token=g6lF5QxciXU, update-interval=0, policy-regex-filter=🇬🇧, no-alert=0, hidden=0, include-all-proxies=0
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/MeiTuan/MeiTuan.list,DIRECT
+DOMAIN-KEYWORD,abema,🤿Youtube
+RULE-SET,https://raw.githubusercontent.com/SmJs09/Surge-All-in-One/main/Spotify,📟Spotify
+RULE-SET,https://raw.githubusercontent.com/SmJs09/Surge-All-in-One/main/HBO_GO_HKG,🇭🇰 香港节点
+DOMAIN-KEYWORD,dazn,🇨🇳 台湾节点
+RULE-SET,https://raw.githubusercontent.com/SmJs09/Surge-All-in-One/main/Asia%20Media,🌏Aisa Media
+RULE-SET,https://raw.githubusercontent.com/SmJs09/Surge-All-in-One/main/US%20Media,🌎US Media,update-interval=21600
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list,🌀Google服务
+# > 本地/局域网地址
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Lan/Lan.list,🌐 全球直连
+# > 广告拦截
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingLite/AdvertisingLite.list,REJECT
+DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingLite/AdvertisingLite_Domain.list,REJECT
+# > 微软服务
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list,Ⓜ️ Microsoft服务
+# > 苹果服务
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list,🍎 Apple服务
+# > 社交平台
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list,📬Telegram
+# > 游戏平台
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list,🕹游戏平台
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Sony/Sony.list,🕹游戏平台
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list,🕹游戏平台
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Nintendo/Nintendo.list,🕹游戏平台
+# > 流媒体
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list,🤿Youtube
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list,📺Netflix&Disney+
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list,📺Netflix&Disney+
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMedia/ChinaMedia.list,🀄️国内媒体
+# > Proxy
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Proxy/Proxy.list,🚅Node
+DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Proxy/Proxy_Domain.list,🚅Node
+# > China
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China.list,🌐 全球直连
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs.list,🌐 全球直连
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Download/Download.list,🌐 全球直连
+# > GeoIP China
+GEOIP,CN,🌐 全球直连
+# > DNS 查询失败走 Final 规则
+FINAL,🚅Node
