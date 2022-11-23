@@ -61,12 +61,12 @@ keyword-filter-type = false
 🀄️国内媒体 = select, 🌐全球直连, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点, no-alert=0, hidden=0, include-all-proxies=0
 # > 外部节点
 🕹游戏平台 = select, 🌐全球直连, 🚅Node, 🇭🇰 香港节点, 🇺🇲 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇬🇧 英国节点, no-alert=0, hidden=0, include-all-proxies=0
-🇭🇰 香港节点 = url-test, policy-path=https://api.huacloud.xyz/sub?target=surge&ver=4&list=true&emoji=true&tfo=true&udp=true&url=https%3A%2F%2Fapi.flowercloud.xyz%2Fosubscribe.php%3Fsid%3D24386%26token%3DB4VYpLJQiCtM, update-interval=0, policy-regex-filter=🇭🇰, no-alert=0, hidden=0, include-all-proxies=0
-🇨🇳 台湾节点 = url-test, policy-path=https://api.huacloud.xyz/sub?target=surge&ver=4&list=true&emoji=true&tfo=true&udp=true&url=https%3A%2F%2Fapi.flowercloud.xyz%2Fosubscribe.php%3Fsid%3D24386%26token%3DB4VYpLJQiCtM, update-interval=0, policy-regex-filter=🇨🇳, no-alert=0, hidden=0, include-all-proxies=0
-🇺🇲 美国节点 = url-test, policy-path=https://api.huacloud.xyz/sub?target=surge&ver=4&list=true&emoji=true&tfo=true&udp=true&url=https%3A%2F%2Fapi.flowercloud.xyz%2Fosubscribe.php%3Fsid%3D24386%26token%3DB4VYpLJQiCtM, update-interval=0, policy-regex-filter=🇺🇸, no-alert=0, hidden=0, include-all-proxies=0
-🇯🇵 日本节点 = url-test, policy-path=https://api.huacloud.xyz/sub?target=surge&ver=4&list=true&emoji=true&tfo=true&udp=true&url=https%3A%2F%2Fapi.flowercloud.xyz%2Fosubscribe.php%3Fsid%3D24386%26token%3DB4VYpLJQiCtM, update-interval=0, policy-regex-filter=🇯🇵, no-alert=0, hidden=0, include-all-proxies=0
-🇸🇬 新加坡节点 = url-test, policy-path=https://api.huacloud.xyz/sub?target=surge&ver=4&list=true&emoji=true&tfo=true&udp=true&url=https%3A%2F%2Fapi.flowercloud.xyz%2Fosubscribe.php%3Fsid%3D24386%26token%3DB4VYpLJQiCtM, update-interval=0, policy-regex-filter=🇸🇬, no-alert=0, hidden=0, include-all-proxies=0
-🇬🇧 英国节点 = url-test, policy-path=https://api.huacloud.xyz/sub?target=surge&ver=4&list=true&emoji=true&tfo=true&udp=true&url=https%3A%2F%2Fapi.flowercloud.xyz%2Fosubscribe.php%3Fsid%3D24386%26token%3DB4VYpLJQiCtM, update-interval=0, policy-regex-filter=🇬🇧, no-alert=0, hidden=0, include-all-proxies=0
+🇭🇰 香港节点 = url-test, policy-path=, update-interval=0, policy-regex-filter=🇭🇰, no-alert=0, hidden=0, include-all-proxies=0
+🇨🇳 台湾节点 = url-test, policy-path=, update-interval=0, policy-regex-filter=🇨🇳, no-alert=0, hidden=0, include-all-proxies=0
+🇺🇲 美国节点 = url-test, policy-path=, update-interval=0, policy-regex-filter=🇺🇸, no-alert=0, hidden=0, include-all-proxies=0
+🇯🇵 日本节点 = url-test, policy-path=, update-interval=0, policy-regex-filter=🇯🇵, no-alert=0, hidden=0, include-all-proxies=0
+🇸🇬 新加坡节点 = url-test, policy-path=, update-interval=0, policy-regex-filter=🇸🇬, no-alert=0, hidden=0, include-all-proxies=0
+🇬🇧 英国节点 = url-test, policy-path=, update-interval=0, policy-regex-filter=🇬🇧, no-alert=0, hidden=0, include-all-proxies=0
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/MeiTuan/MeiTuan.list,DIRECT
